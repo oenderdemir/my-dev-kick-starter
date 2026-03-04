@@ -36,10 +36,10 @@ Get-ChildItem -Recurse *.psm1 | Import-Module -Force
 # Global variables
 [int]$global:Progress = 0
 
-Invoke-KickstartJob -JobFunction "Edit-PowerShell" -JobName "Edit-PowerShell"
-
 # Admin Check
 Assert-Admin
+
+Invoke-KickstartJob -JobFunction "Edit-PowerShell" -JobName "Edit-PowerShell"
 # Change locale to English
 Confirm-SystemLocale
 # Network Check
