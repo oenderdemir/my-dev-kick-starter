@@ -1,6 +1,6 @@
 @echo off
 chcp 65001>nul
-echo | set /p dummy="Cmd için sistem değişkenleri güncelleniyor. Lütfen bekleyiniz..."
+echo | set /p dummy="Cmd icin sistem degiskenleri guncelleniyor. Lutfen bekleyiniz..."
 
 goto main
 
