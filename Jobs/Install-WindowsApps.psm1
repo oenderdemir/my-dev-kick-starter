@@ -5,7 +5,8 @@ function Install-WindowsApps {
     $apps = @(
         @{ name = "Microsoft.DotNet.SDK.3_1" },
         @{ name = "Microsoft.DotNet.SDK.6" },
-        @{ name = "Microsoft.DotNet.SDK.7" }
+        @{ name = "Microsoft.DotNet.SDK.7" },
+        @{ name = "Microsoft.SQLServerManagementStudio.22" },
         @{ name = "Microsoft.VisualStudioCode" },
         @{ name = "Microsoft.VisualStudio.2022.Enterprise" },
         @{ name = "Microsoft.DotNet.SDK.8" },

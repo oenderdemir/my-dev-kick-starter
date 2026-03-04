@@ -14,6 +14,7 @@ function Install-Applications
         @{ name = "SublimeHQ.SublimeText.4" },
         @{ name = "Notepad++.Notepad++" },
         @{ name = "Insomnia.Insomnia" },
+        @{ name = "Postman.Postman" },
         @{ name = "Google.Chrome" },
         @{ name = "Opera.OperaGX" },
         @{ name = "Mozilla.Firefox.DeveloperEdition" },
@@ -35,6 +36,8 @@ function Install-Applications
             winget upgrade -e -h --scope machine --accept-source-agreements --accept-package-agreements --id $app.name
         }
     }
+
+    Write-Host "ℹ️ JetBrains urunlerini garanti ve merkezi yonetim icin Toolbox icinden kurun: PyCharm Professional, IntelliJ IDEA Ultimate, DataGrip."
     
 }
 
